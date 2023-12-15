@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+html{
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+	<script src="script.js"></script>
+	
+}
+@font-face{
+	font-family:"abril";
+	src:url("../_fonts/AbrilFatface-Regular.ttf");
+}
+@font-face{
+	font-family:"fun";
+	src:url("../_fonts/ugly-dave.ttf");
+}
+@font-face{
+	font-family:"big";
+	src:url("../_fonts/Onest-VariableFont_wght.ttf");
+}
+@font-face{
+	font-family:"sans";
+	src:url("../_fonts/Quicksand-VariableFont_wght.ttf");
+}
+
+body{
+	background-color: black;
+	
+	
+}
+.honeimg{
+	background-image: url("../_imgs/Screenshot 2023-12-12 at 2.00.35 PM.png");
+	background-size: cover;
+	background-repeat: none;
+	height: 600px;
+	width: 60%;
+	margin: 0px auto;
+}
+.honetext{
+	color: white;
+	background-color: olive;
+	text-align: center;
+	
+}
+h1{
+	
+	color: white;
+	font-size: 11em;
+	font-family: fun;
+	text-align: center;
+	margin-bottom: 50px;
+	margin-bottom: 10px;
+	
+}
+p{
+	color: white;
+	font-family: sans;
+	font-size: 2em;
+	width: 60%;
+	margin: 0px auto;
+	
+}
